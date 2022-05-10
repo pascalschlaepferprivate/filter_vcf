@@ -31,9 +31,9 @@ python3 filter_vcf.py -in vcf_file_name [-argument argument_value]
 -nfo [int]: Defines the number of samples given in -fo (can be lower than actual number).
     
 #### Auxiliary:
--h: Display this help message
--v [True, False]: Set verbose to True or False and give screen output.
--s TME204 or -s TME14 or -s 91-02324 Special mode to reproduce SNP findings of the associated manuscript.
+-h: Display this help message  
+-v [True, False]: Set verbose to True or False and give screen output.  
+-s TME204 or -s TME14 or -s 91-02324 Special mode to reproduce SNP findings of the associated manuscript.  
 
-See publication methods for more information.
+See publication methods for more information.  
 Please use script at own risk. Interprete the results and make changes to parameters or script as you see fit. The author does not take any responsibility for correctness of results of script.
