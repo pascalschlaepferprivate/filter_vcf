@@ -6,7 +6,7 @@ Version: 1.0.0
 This script was produced in accordance of the work involving the manuscript that can be found at https://www.biorxiv.org/content/10.1101/2022.04.13.487913v1.full.pdf. The script searches for an above noise signal (SNPs) in an in-group of samples and filters out signals that are above signal in out-groups. It is a simplification of other methods that use machine learning. For our purpose, Machine learning was not needed, because 1) our cause was known to be monogenetic, and 2) our phenotypes were known with almost 100% certainty. If either of the two conditions are not met, modify the script and use a machine learning algorithm to filter SNPs.
 
 ## Function description:
-This function parses a vcf file containing SNPs and filters SNPs according to parameters given. The function was designed to find allelic SNPs present in an in group sub population of samples, but absent in a out-group sub population. Groups where only a subset of samples have to be hit can also be defined.
+This function parses a vcf file produced by the software freebayes (If you use any other software, you might have to modify the script) containing SNPs and filters SNPs according to parameters given. The function was designed to find allelic SNPs present in an in group sub population of samples, but absent in a out-group sub population. Groups where only a subset of samples have to be hit can also be defined.
 
 ## Usage:
 python3 filter_vcf.py -in vcf_file_name [-argument argument_value]  
